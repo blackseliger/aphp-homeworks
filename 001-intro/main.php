@@ -10,9 +10,9 @@ include_once './autoload.php';
 
 
 
-use Students\Student as Student;
-use Cars\Car as Car;
-use TVs\TV as TV;
+use objects\Human\Student as Student;
+use objects\Technics\Car as Car;
+use objects\Technics\TV as TV;
 
 
  $student = new Student();
@@ -31,3 +31,8 @@ $tv = new TV("animalChannel", "Discovery");
 
 $tv->nextChannel();
 $tv->previousChannel();
+
+
+
+// https://ru.stackoverflow.com/questions/898353/Не-находит-класс-uncaught-error-class
+// помощь

@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Students;
+namespace objects\Human;
 
 class Student {
     // public string $name;

@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Cars;
+namespace objects\Technics;
 
 class Car {
 

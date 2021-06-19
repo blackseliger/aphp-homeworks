@@ -1,7 +1,7 @@
 <?php
 
 
-namespace TVs;
+namespace objects\Technics;
 
 class TV {
     public string $channeName1;
