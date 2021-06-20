@@ -8,8 +8,8 @@ function autoload($classname)
     if (is_file($fileName)) {
         require_once($fileName);
     } else {
-        // $message = sprintf('File "%s" not exists', $path);
-        // die($message);
+//         $message = sprintf('File "%s" not exists', $path);
+//         die($message);
         echo "Dont";
     }
 }
