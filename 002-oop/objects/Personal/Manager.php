@@ -4,7 +4,8 @@ namespace objects\Personal;
 
 
 use objects\AbstractPerson;
-use objects\Interface\AllInterface\WebinarSpeakerInterface;
+include 'objects\ObjInterface\AllInterface.php';
+
 
 
 class Manager extends AbstractPerson implements WebinarSpeakerInterface

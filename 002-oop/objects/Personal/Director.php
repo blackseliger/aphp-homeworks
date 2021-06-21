@@ -5,7 +5,11 @@ namespace objects\Personal;
 
 
 use objects\AbstractPerson;
-use objects\Interface\LeadInterface;
+
+include 'objects\ObjInterface\AllInterface.php';
+
+
+
 
 
 class Director extends AbstractPerson implements  LeadInterface

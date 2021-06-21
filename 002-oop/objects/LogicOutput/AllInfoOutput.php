@@ -5,9 +5,8 @@ namespace objects\LogicOutput;
 
 
 use objects\AbstractPerson;
-use objects\interface\ApplicationCreatorInterface;
-use objects\interface\LeadInterface;
-use objects\interface\WebinarSpeakerInterface;
+
+include 'objects\ObjInterface\AllInterface.php';
 
 class AllInfoOutput
 {

@@ -5,7 +5,8 @@ namespace objects\Personal;
 
 
 use objects\AbstractPerson;
-use objects\Interface\AllInterface\ApplicationCreatorInterface;
+include 'objects\ObjInterface\AllInterface.php';
+
 
 
 class Tester extends AbstractPerson implements ApplicationCreatorInterface
