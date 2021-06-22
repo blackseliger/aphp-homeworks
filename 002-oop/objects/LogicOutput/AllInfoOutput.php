@@ -6,7 +6,7 @@ namespace objects\LogicOutput;
 
 use objects\AbstractPerson;
 
-include 'objects\ObjInterface\AllInterface.php';
+//include 'objects\ObjInterface\AllInterface.php';
 
 class AllInfoOutput
 {

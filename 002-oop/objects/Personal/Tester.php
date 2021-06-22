@@ -5,7 +5,7 @@ namespace objects\Personal;
 
 
 use objects\AbstractPerson;
-include 'objects\ObjInterface\AllInterface.php';
+//include 'objects\ObjInterface\AllInterface.php';
 
 
 

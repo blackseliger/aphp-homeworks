@@ -2,6 +2,9 @@
 
 include_once './autoload.php';
 
+include 'objects\ObjInterface\AllInterface.php';
+
+
 
 
 
