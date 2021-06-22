@@ -4,20 +4,26 @@ declare(strict_types=1);
 /**
  * @throws Exception
  */
-function calculate($a, $b): float {
+function calculate( int $a, int $b): float {
     if (!(is_int($a))  || !(is_int($b))) {
         throw new Exception('аргументы не числа');
-    } else if ((is_float($a)) || (is_float($b))){
+    }
+    if ((is_float($a)) || (is_float($b))){
         throw new Exception('аргументы числа c плавающей запятой');
-    }  else if ((is_string($a)) || (is_string($b))){
+    }
+    if ((is_string($a)) || (is_string($b))){
         throw new Exception('аргументы строки');
-    }  else if ((is_bool($a)) || (is_bool($b))){
+    }
+    if ((is_bool($a)) || (is_bool($b))){
         throw new Exception('аргументы являются булевыми значениями');
-    }   else if ((is_array($a)) || (is_array($b))){
+    }
+    if ((is_array($a)) || (is_array($b))){
         throw new Exception('аргументы являются массивами');
-    }   else if ((is_null($a)) || (is_null($b))){
+    }
+    if ((is_null($a)) || (is_null($b))){
         throw new Exception('аргументы не введены, null');
     }
+//    оставил проверку на null, но она всегда будет фолс
     echo $a/$b .PHP_EOL;;
     return $a/$b;
 }
